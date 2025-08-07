@@ -1,11 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Nav'
+import "@radix-ui/themes/styles.css";
+import { Theme } from "@radix-ui/themes";
+
+
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello World!</h1>
+    <Theme>
+      <div className="App">
+      <Navbar />
+
+     
     </div>
+
+    </Theme>
+    
   );
 }
 
