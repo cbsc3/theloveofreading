@@ -1,48 +1,63 @@
 
-import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 
 export default function Navbar() {
   return (
-    <NavigationMenu.Root className="bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          
-          {/* Logo */}
-          <div className="flex-shrink-0 text-xl font-bold">
-            MySite
-          </div>
-
-          {/* Navigation Links */}
-          <NavigationMenu.List className="flex space-x-6">
-            <NavigationMenu.Item>
-              <NavigationMenu.Link
-                href="#"
-                className="text-gray-700 hover:text-blue-500 transition-colors"
-              >
-                Home
-              </NavigationMenu.Link>
-            </NavigationMenu.Item>
-
-            <NavigationMenu.Item>
-              <NavigationMenu.Link
-                href="#"
-                className="text-gray-700 hover:text-blue-500 transition-colors"
-              >
-                About
-              </NavigationMenu.Link>
-            </NavigationMenu.Item>
-
-            <NavigationMenu.Item>
-              <NavigationMenu.Link
-                href="#"
-                className="text-gray-700 hover:text-blue-500 transition-colors"
-              >
-                Contact
-              </NavigationMenu.Link>
-            </NavigationMenu.Item>
-          </NavigationMenu.List>
-        </div>
+    <div className="navmenu">
+      <div className="navbar bg-base-100">
+  <div className="navbar-start">
+    <div className="dropdown">
+      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
       </div>
-    </NavigationMenu.Root>
+      <ul
+        tabIndex={0}
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a></a></li>
+        <li>
+          <a>Our Mission </a>
+          <ul className="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div>
+    <img className="branding" src="https://i.ibb.co/8Ly5cTqh/no-background.png" alt="no-background" border="0" />
+
+  </div>
+  <div className="navbar-center hidden lg:flex">
+    <ul className="menu menu-horizontal px-1">
+      <li><a>About Us</a></li>
+      <li>
+        <details>
+          <summary>National Effort</summary>
+          <ul className="p-2">
+            <li><a>Shelters</a></li>
+            <li><a>Transportation</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a>Beta Testing</a></li>
+    </ul>
+  </div>
+  <div className="navbar-end">
+    <a className="btn btn-primary">Join Us</a>
+  
+    <a className="btn default-spacing">Donate</a>
+  </div>
+</div>
+    </div>
   );
 }

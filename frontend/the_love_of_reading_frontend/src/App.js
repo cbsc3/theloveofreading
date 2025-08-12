@@ -1,20 +1,24 @@
 import './App.css';
 import Navbar from './components/Nav'
-import "@radix-ui/themes/styles.css";
-import { Theme } from "@radix-ui/themes";
-
+import CustomHero from './components/secondHero';
+import AIAdoptionSection from './components/Adoption';
+import RainToys from './components/rainingHero';
+import GeoLocation from './components/Location';
 
 
 function App() {
   return (
-    <Theme>
       <div className="App">
-      <Navbar />
+
+        <Navbar/>
+        <GeoLocation />
+        <RainToys />
+        <AIAdoptionSection />
+      
 
      
     </div>
 
-    </Theme>
     
   );
 }

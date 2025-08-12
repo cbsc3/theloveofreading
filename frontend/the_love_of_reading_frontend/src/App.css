@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#sub-branding{
+    font-family: 'Playwrite HU', sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: 400;
+    color: #DAB1DA;
+}
+
+ul{
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+
+.btn{
+    font-family: poppins, sans-serif;
+}
+
+.branding{
+    height: auto;
+    width: 70px;
+    margin-left: 10px;
+}
+
+.poppins{
+    font-family: poppins, sans-serif;
+}
+
+.default-spacing{
+    margin-left: 10px;
+}
+
+.radius-normal{
+    border-radius: 0px;
+}
