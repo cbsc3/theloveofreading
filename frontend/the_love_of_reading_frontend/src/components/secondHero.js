@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import axios from "axios";
+
 export default function CustomHero() {
   return (
          <div className="hero poppins min-h-screen bg-gradient-to-br from-secondary/20 via-base-100 to-primary/20">

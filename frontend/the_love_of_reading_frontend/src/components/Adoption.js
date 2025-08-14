@@ -34,11 +34,7 @@ export default function AIAdoptionSection() {
           </div>
         </div>
 
-        <div className="text-center mt-12">
-          <button className="btn btn-primary btn-lg">
-            Start Your Journey
-          </button>
-        </div>
+     
       </div>
     </section>
   );

@@ -38,19 +38,9 @@ export default function Navbar() {
 
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>About Us</a></li>
-      <li>
-        <details>
-          <summary>National Effort</summary>
-          <ul className="p-2">
-            <li><a>Shelters</a></li>
-            <li><a>Transportation</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Beta Testing</a></li>
-    </ul>
+    <div className="navbar-center outfit">
+    <a className="btn btn-ghost text-xl">ShelterConnect</a>
+  </div>
   </div>
   <div className="navbar-end">
     <a className="btn btn-primary">Join Us</a>

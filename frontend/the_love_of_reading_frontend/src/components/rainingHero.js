@@ -56,10 +56,8 @@ export default function AnimalAdoptionHeroWithRain() {
       <div className="hero-content flex-col lg:flex-row gap-12 relative z-10">
         <div className="max-w-lg z-20">
           <h1 className="text-5xl font-bold mb-4 flex items-center gap-3">
-            <span role="img" aria-label="paw">
-    
-            </span>{" "}
-            The Love of Animals
+            
+        Animals; Pets; Love.
           </h1>
           <p className="text-base-content/80 mb-6">
             Every animal deserves love, care, and a safe place to call home. Our
