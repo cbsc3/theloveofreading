@@ -41,3 +41,8 @@ ul{
 .outfit{
     font-family: 'Outfit', sans-serif;
 }
+
+.padding-top-bottom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

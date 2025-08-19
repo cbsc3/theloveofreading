@@ -4,7 +4,9 @@ import CustomHero from './components/secondHero';
 import AIAdoptionSection from './components/Adoption';
 import RainToys from './components/rainingHero';
 import GeoLocation from './components/Location';
+import CreateAccount from './components/Join';
 import MissionSection from './components/Statement';
+import ShelterJoin from './components/JoinShelter';
 import { createRoot } from "react-dom/client";
 import {
   BrowserRouter as Router,
@@ -39,6 +41,19 @@ function App() {
             </>
           } 
         />
+
+        <Route 
+          path="/join/user"
+          element={
+            <CreateAccount />
+          } />
+
+           <Route 
+          path="/join/shelter"
+          element={
+            <ShelterJoin />
+          } />
+
       </Routes>
     </Router>
      

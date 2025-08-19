@@ -39,11 +39,11 @@ export default function Navbar() {
   </div>
   <div className="navbar-center hidden lg:flex">
     <div className="navbar-center outfit">
-    <a className="btn btn-ghost text-xl">ShelterConnect</a>
+    <a href="/" className="btn btn-ghost text-xl">ShelterConnect</a>
   </div>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-primary">Join Us</a>
+    <a href="/join/user" className="btn btn-primary">Join Us</a>
   
     <a className="btn default-spacing">Donate</a>
   </div>

@@ -20,16 +20,12 @@ export default function MissionSection() {
             Our Mission
           </h2>
           <p className="text-lg leading-relaxed text-base-content/80 mb-6">
-            The <strong>Love of Animals & Shelter Connect</strong> is dedicated
-            to uniting animal shelters, rescues, and compassionate individuals
-            into one powerful network to save lives, prevent unnecessary
-            euthanasia, and ensure every animal finds safety and love.
+            The <strong>Love of Animals & Shelter Connect</strong> exists to unite shelters, rescues, and compassionate individuals into a nationwide network that saves lives, prevents unnecessary euthanasia, and ensures every animal finds a safe, loving home. We provide a platform that connects animals with adopters, fosters, and transporters — breaking down barriers between communities and giving every pet a chance at life.
+
+Our vision extends beyond rescue: we aim to create sustainable housing programs where seniors and veterans can live rent-free in exchange for caring for animals in need. By combining compassion with purpose, we will transform animal welfare into a movement that heals both people and pets — offering companionship, dignity, and a second chance for all.
           </p>
           <p className="text-lg leading-relaxed text-base-content/80 mb-6">
-            Our mission extends beyond rescue — we aim to develop housing and
-            foster programs where seniors and veterans can live rent-free in
-            exchange for caring for animals in need, creating a mutually
-            beneficial bond of companionship, purpose, and healing.
+            
           </p>
           <button className="btn btn-primary">Add Your Organization</button>
         </div>
